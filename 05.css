@@ -1,4 +1,4 @@
-/* Font hệ thống nghiêm túc, tối giản */
+
 :root {
   --color-primary: #2563eb;
   --color-bg: #f3f4f6;
@@ -38,7 +38,7 @@ h1 {
   letter-spacing: -0.025em;
 }
 
-/* Avatar */
+
 .avatar-wrapper {
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ h1 {
   fill: #9ca3af;
 }
 
-/* Card layout */
+
 .settings-card {
   background: var(--color-card);
   border: 1px solid var(--color-border);
@@ -89,7 +89,7 @@ h1 {
   stroke: var(--color-text-muted);
 }
 
-/* Form inputs */
+
 .form-group {
   margin-bottom: 16px;
 }
@@ -115,7 +115,7 @@ select {
   display: block;
 }
 
-/* Fix lỗi mũi tên Select */
+
 select {
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
@@ -125,13 +125,13 @@ select {
   padding-right: 40px;
 }
 
-/* Account inputs: Đầu tròn */
+
 .account-section input,
 .account-section select {
   border-radius: 999px;
 }
 
-/* Preferences & Security: Bo nhẹ */
+
 .preferences-card select,
 .security-card select {
   border-radius: 6px;
@@ -144,12 +144,10 @@ select:focus {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* =========================================
-   SECURITY: 2 dòng khác nhau
-========================================= */
+
 .security-list {
   display: flex;
-  flex-direction: column; /* Xếp theo cột */
+  flex-direction: column; 
   gap: 12px;
 }
 
@@ -161,8 +159,8 @@ select:focus {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
-  text-align: left; /* Căn trái cho giống danh sách cài đặt */
-  width: 100%; /* Chiếm trọn dòng */
+  text-align: left; 
+  width: 100%; 
   transition: all 0.2s;
 }
 
@@ -171,7 +169,7 @@ select:focus {
   border-color: #9ca3af;
 }
 
-/* Checkbox */
+
 .checkbox-group {
   display: flex;
   align-items: center;
@@ -181,7 +179,7 @@ select:focus {
   cursor: pointer;
 }
 
-/* FOOTER ACTIONS: Chia đôi chuẩn Grid */
+
 .footer-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -218,7 +216,7 @@ select:focus {
   height: 18px;
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   body {
     padding: 20px 12px;
